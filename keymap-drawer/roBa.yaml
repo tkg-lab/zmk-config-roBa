@@ -11,7 +11,7 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - A
+  - {t: A, h: SCROLL}
   - S
   - D
   - F
@@ -319,3 +319,5 @@ combos:
   k: '"'
 - p: [24, 25]
   k: '='
+- p: [18, 19]
+  k: '&mkp MB1'

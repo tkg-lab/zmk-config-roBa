@@ -102,10 +102,12 @@
         FUNCTION {
             bindings = <
 &kp LG(T)      &msc SCRL_LEFT  &kp UP             &msc SCRL_LEFT  &kp LS(LC(NUMBER_3))                                &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(TAB))  &kp LC(UP)    &kp LC(TAB)    &kp LG(X)
-&kp LC(LG(F))  &kp LEFT        &kp DOWN           &kp RIGHT       &kp PAGE_UP           &trans              &kp HOME  &kp LG(A)                 &kp LC(LEFT)     &kp LC(DOWN)  &kp LC(RIGHT)  &kp LG(C)
+&kp LC(LG(F))  &kp LEFT        &kp DOWN           &kp RIGHT       &kp PAGE_UP           &kp K_MUTE          &kp HOME  &kp LG(A)                 &kp LC(LEFT)     &kp LC(DOWN)  &kp LC(RIGHT)  &kp LG(C)
 &kp LS(LG(N))  &kp LS(UP)      &kp LG(BACKSPACE)  &kp LS(DOWN)    &kp PAGE_DOWN         &kp LEFT_SHIFT      &kp END   &kp LG(Z)                 &kp LG(LEFT)     &kp LG(F)     &kp LG(RIGHT)  &kp LG(V)
 &trans         &msc SCRL_LEFT  &msc SCRL_RIGHT    &msc SCRL_DOWN  &msc SCRL_UP          &trans              &trans    &trans                                                                  &kp LC(C)
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         NUM {

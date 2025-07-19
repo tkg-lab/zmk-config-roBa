@@ -103,7 +103,7 @@
         mac_0 {
             bindings = <
 &kp Q    &kp W         &kp E             &kp R                   &kp T                                                                      &kp Y            &kp U               &lt 5 I    &kp O    &kp P
-&lt 5 A  &kp S         &kp D             &kp F                   &kp G        &kp LS(LG(S))                    &kp MINUS                    &kp H            &lt_to_layer_0 5 J  &kp K      &kp L    &kp BACKSPACE
+&lt 5 A  &kp S         &kp D             &kp F                   &kp G        &to 7                            &kp MINUS                    &kp H            &lt_to_layer_0 5 J  &kp K      &kp L    &kp BACKSPACE
 &kp Z    &kp X         &kp C             &kp V                   &kp B        &kp LEFT_SHIFT                   &kp SLASH                    &kp N            &kp M               &kp COMMA  &kp DOT  &kp UNDER
 &kp ESC  &kp LEFT_WIN  &kp LEFT_CONTROL  &lt_to_layer_0 2 SPACE  &lt 1 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt_to_layer_0 6 LANGUAGE_1  &lt 2 LS(ENTER)                                          &kp DEL
             >;
@@ -176,7 +176,7 @@
         Win_0 {
             bindings = <
 &kp Q    &kp W         &kp E             &kp R                        &kp T                                                                      &kp Y            &kp U               &lt 5 I    &kp O    &kp P
-&lt 5 A  &kp S         &kp D             &kp F                        &kp G        &kp LS(LG(S))                    &kp MINUS                    &kp H            &lt_to_layer_0 5 J  &kp K      &kp L    &kp BACKSPACE
+&lt 5 A  &kp S         &kp D             &kp F                        &kp G        &to 0                            &kp MINUS                    &kp H            &lt_to_layer_0 5 J  &kp K      &kp L    &kp BACKSPACE
 &kp Z    &kp X         &kp C             &kp V                        &kp B        &kp LEFT_SHIFT                   &kp SLASH                    &kp N            &kp M               &kp COMMA  &kp DOT  &kp UNDER
 &kp ESC  &kp LEFT_WIN  &kp LEFT_CONTROL  &lt_to_layer_0 2 LEFT_SHIFT  &lt 8 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt_to_layer_0 6 LANGUAGE_1  &lt 2 LS(ENTER)                                          &kp DEL
             >;

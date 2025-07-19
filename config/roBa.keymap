@@ -89,7 +89,8 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>; // CW=下, CCW=上
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+ // CW=下, CCW=上
             tap-ms = <20>;                               // チャタ抑制
         };
     };
@@ -106,7 +107,8 @@
             >;
 
             // sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
-            sensor-bindings = <&encoder_msc_down_up>;
+
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
 
         mac_Control {

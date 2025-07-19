@@ -113,10 +113,10 @@
 
         FUNCTION {
             bindings = <
-&kp LG(T)      &msc SCRL_LEFT    &kp UP             &msc SCRL_LEFT  &kp LS(LC(NUMBER_3))                                        &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(TAB))  &kp LC(UP)    &kp LC(TAB)    &kp LG(X)
-&kp LC(LG(F))  &kp LEFT          &kp DOWN           &kp RIGHT       &kp PAGE_UP           &kp C_MUTE            &kp HOME        &kp LG(A)                 &kp LC(LEFT)     &kp LC(DOWN)  &kp LC(RIGHT)  &kp LG(C)
-&kp LS(LG(N))  &kp LS(UP)        &kp LG(BACKSPACE)  &kp LS(DOWN)    &kp PAGE_DOWN         &kp C_PLAY_PAUSE      &kp END         &kp LG(Z)                 &kp LG(LEFT)     &kp LG(F)     &kp LG(RIGHT)  &kp LG(V)
-&trans         &kp LG(KP_MINUS)  &kp LG(KP_PLUS)    &trans          &trans                &trans                &msc SCRL_DOWN  &msc SCRL_UP                                                            &kp LC(C)
+&kp LG(T)      &msc SCRL_LEFT  &kp UP             &msc SCRL_LEFT  &kp LS(LC(NUMBER_3))                                        &kp LS(LC(LG(NUMBER_4)))  &kp LS(LC(TAB))  &kp LC(UP)    &kp LC(TAB)    &kp LG(X)
+&kp LC(LG(F))  &kp LEFT        &kp DOWN           &kp RIGHT       &kp PAGE_UP           &kp C_MUTE            &kp HOME        &kp LG(A)                 &kp LC(LEFT)     &kp LC(DOWN)  &kp LC(RIGHT)  &kp LG(C)
+&kp LS(LG(N))  &kp LS(UP)      &kp LG(BACKSPACE)  &kp LS(DOWN)    &kp PAGE_DOWN         &kp C_PLAY_PAUSE      &kp END         &kp LG(Z)                 &kp LG(LEFT)     &kp LG(F)     &kp LG(RIGHT)  &kp LG(V)
+&trans         &kp LG(MINUS)   &kp LG(PLUS)       &trans          &trans                &trans                &msc SCRL_DOWN  &msc SCRL_UP                                                            &kp LC(C)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;

@@ -84,6 +84,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+        encoder_msc_down_up: encoder_msc_down_up {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_DOWN_UP";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>; // CW=下, CCW=上
+            tap-ms = <20>;                               // チャタ抑制
+        };
     };
 
     keymap {
@@ -97,7 +104,9 @@
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp ESCAPE  &lt_to_layer_0 2 LEFT_SHIFT  &lt 1 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &lt_to_layer_0 6 LANGUAGE_1  &lt 2 LS(ENTER)                                          &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            // sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_msc_down_up>;   // ← 追加
+
         };
 
         FUNCTION {

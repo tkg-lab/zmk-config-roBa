@@ -110,7 +110,7 @@
 
             // sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
 
-            sensor-bindings = <&inc_dec_kp DOWN UP>;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
 
         mac_Control {

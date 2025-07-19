@@ -117,6 +117,8 @@
 &kp CARET            &kp TILDE       &kp SEMI         &kp COLON             &kp LEFT_BRACKET       &kp RIGHT_BRACKET            &kp ASTRK         &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
 &trans               &trans          &trans           &trans                &trans                 &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                            &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
         };
 
         ARROW {

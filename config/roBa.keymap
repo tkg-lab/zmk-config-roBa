@@ -10,8 +10,8 @@
 
 &trackball {
     automouse-layer = <4>;
-    // scroll-layers = <5>;
 
+    // scroll-layers = <5>;
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -45,7 +45,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp UNDER>;
             key-positions = <20 21>;
         };
 

@@ -112,10 +112,10 @@
 
         NUM {
             bindings = <
-&kp PIPE             &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                 &kp PERIOD         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
-&mt LEFT_SHIFT AMPS  &kp DOLLAR      &kp HASH         &kp AT_SIGN           &kp EXCLAMATION        &kp LC(LA(KP_NUMBER_0))      &kp PLUS          &kp NUMBER_0       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE
-&kp CARET            &kp TILDE       &kp SEMI         &kp COLON             &kp LEFT_BRACKET       &kp RIGHT_BRACKET            &kp ASTRK         &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
-&trans               &trans          &trans           &trans                &trans                 &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                            &trans
+&kp PIPE             &kp LEFT_BRACE  &kp RBRC  &kp LPAR     &kp RPAR                                                         &kp PERIOD         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS
+&mt LEFT_SHIFT AMPS  &kp DOLLAR      &kp HASH  &kp AT_SIGN  &kp EXCLAMATION   &kp LC(LA(KP_NUMBER_0))      &kp PLUS          &kp NUMBER_0       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE
+&kp CARET            &kp TILDE       &kp SEMI  &kp COLON    &kp LEFT_BRACKET  &kp RIGHT_BRACKET            &kp ASTRK         &kp EQUAL          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH
+&trans               &trans          &trans    &trans       &trans            &trans                       &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;

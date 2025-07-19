@@ -30,12 +30,12 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
+            bindings = <&kp LS(TAB)>;
             key-positions = <11 12>;
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
+            bindings = <&kp TAB>;
             key-positions = <12 13>;
         };
 
@@ -57,6 +57,11 @@
         mb1 {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
+        };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
         };
     };
 
@@ -85,10 +90,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&lt 5 A           &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                    &kp MINUS       &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                        &kp BACKSPACE   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &kp LANGUAGE_1  &lt 1 ENTER                             &kp DEL
+&kp Q      &kp W         &kp E       &kp R                   &kp T                                                         &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&lt 5 A    &kp S         &kp D       &kp F                   &kp G        &kp LS(LG(S))                    &kp MINUS       &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp Z      &kp X         &kp C       &kp V                   &kp B        &kp LEFT_CONTROL                 &kp BACKSPACE   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp ESCAPE  &lt_to_layer_0 6 SPACE  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_2      &kp LANGUAGE_1  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
